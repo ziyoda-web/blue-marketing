@@ -1,0 +1,137 @@
+.header-left{
+    min-height: 100px;
+    background: #fff;
+}
+.header-left img{
+    padding: 30px 0 0 20px;
+}
+.header-icon{
+    margin-top: 260px;
+    margin-bottom: 260px;
+}
+.header-icons p{
+    font-family: 'Rubik';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(147, 147, 147, 1);
+}
+.header-icons p:hover{
+    color: rgba(42, 134, 177, 1);
+    font-size: 22px;
+    font-weight: 900;
+    transition: 1s;
+}
+.navbar{
+    max-width: 100%;
+    min-height: 100px;
+    background: #fff;
+}
+.navbar-text h3{
+    max-width: 320px;
+    margin-top: 90px;
+    font-family: 'Rubik';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+    color: rgba(70, 71, 72, 1);
+}
+.navbar-text p{
+    max-width: 300px;
+    font-family: 'Rubik';
+    font-weight: 400;
+    line-height: 19px;
+    font-size: 16px;
+    text-align: justify;
+}
+.bttn{
+    width: 211px;
+    height: 33px;
+    border-radius: 50px;
+    color: white;
+    background: rgba(63, 165, 213, 1);
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    margin-bottom: 80px;
+}
+.row .bttn{
+    margin-bottom: 19px;
+}
+h4{
+    font-family: 'Rubik';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgba(42, 134, 177, 1);
+}
+.row-text{
+    padding: 15px 15px 0 15px;
+    text-align: justify;
+    color: rgba(84, 84, 84, 1);
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.col-text{
+    font-family: 'Rubik';
+    color: rgba(104, 104, 104, 1);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 45px;
+}
+.text{
+    font-size: 14px;
+    font-weight: 300;
+}
+h5{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 16px;
+}
+footer{
+    background: rgba(63, 165, 213, 1);
+    min-height: 100px;
+    transform: translateX(-50px);
+}
+.footer-text h6{
+    font-family: 'Rubik';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+    color: #fff;
+    padding: 40px 0;
+}
+.footer-text__gmail{
+    font-family: 'Rubik';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #fff;
+}
+.footer-text__gmail{
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+@media (max-width: 992px){
+    .header-left{
+        max-width: 100px;
+    }
+}
+@media (max-width: 768px){
+    .header-icon{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .navbar-text h3{
+        font-size: 35px;
+    }
+    footer{
+        transform: translateX(0);
+    }
+}
